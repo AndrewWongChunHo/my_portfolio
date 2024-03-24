@@ -11,6 +11,9 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import Hero from "./Hero";
+import Awards from "./Awards";
+import DesignProject from "./DesignProject";
+// import AppProject from "./AppProject";
 import {
   EarthCanvas,
   BallCanvas,
@@ -19,6 +22,9 @@ import {
 } from "./canvas";
 
 export {
+  // AppProject,
+  DesignProject,
+  Awards,
   Hero,
   CTA,
   Alert,

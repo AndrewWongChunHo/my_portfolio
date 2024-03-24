@@ -61,8 +61,18 @@ import flutter from "./flutter.png";
 import swiftui from "./swiftui.png";
 import heroRight from "./hero-right.png";
 import arrow2 from "./arrow.png";
+import pokemon from "./pokemon.png";
+import asus from "./asus.png";
+import art from "./art.png";
+import cathayJunior from "./cathayJunior.png";
+import arInspector from "./arInspector.png";
 
 export {
+  arInspector,
+  cathayJunior,
+  art,
+  asus,
+  pokemon,
   arrow2,
   heroRight,
   swiftui,

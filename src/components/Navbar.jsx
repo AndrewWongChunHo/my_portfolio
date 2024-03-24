@@ -21,13 +21,15 @@ const Navbar = () => {
           About
         </NavLink>
         <NavLink
-          to="/projects"
+          to="/contact"
           className={({ isActive }) =>
-            `px-7 py-2 rounded-3xl ${isActive ? "text-blue-600" : "text-white"} 
-        } transition duration-300 ease-in-out hover:bg-blue-600`
+            `px-7 py-2 rounded-3xl ${
+              isActive ? "bg-blue-600 text-white" : "text-white"
+            } 
+            } transition duration-300 ease-in-out hover:bg-blue-600 `
           }
         >
-          Projects
+          Contact
         </NavLink>
       </nav>
     </header>

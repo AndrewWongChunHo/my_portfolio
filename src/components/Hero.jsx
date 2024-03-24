@@ -14,7 +14,7 @@ const Hero = () => {
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
 
-        <div className="flex flex-row gap-40 translate-y-20">
+        <div className="flex md:flex-row sm:flex-col xs:flex-col gap-40 translate-y-20">
           <div className="translate-y-10">
             <h1 className={`${styles.heroHeadText} text-white`}>
               Hi, I'm <span className="text-[#476FDA]">Andrew</span>
@@ -28,7 +28,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+      <div className="absolute xs:hidden  sm:hidden xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div

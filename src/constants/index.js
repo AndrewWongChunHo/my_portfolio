@@ -39,6 +39,11 @@ import {
   swift,
   swiftui,
   flutter,
+  pokemon,
+  asus,
+  art,
+  cathayJunior,
+  arInspector,
 } from "../assets/icons";
 
 export const navLinks = [
@@ -173,66 +178,244 @@ const projects = [
   {
     name: "Pokemon Website",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A Pokémon-themed website centered around Gengar, designed to engage users through interactive elements such as parallax design and other engaging features.",
     tags: [
       {
-        name: "react",
+        name: "Vanilla JS",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Parallax Design",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: pokemon,
+    source_code_link:
+      "https://www.figma.com/file/zKq9DG4cDUwFvgRwWsZaEO/UI.UX?type=design&node-id=0%3A1&mode=design&t=QnXTMjgqRoeUvWiR-1",
   },
   {
     name: "ASUS Website",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "It is a website themed around ASUS, designed to showcase its products with a variety of interactive elements to enhance the appeal of the products.",
     tags: [
       {
-        name: "react",
+        name: "Django",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Vanilla JS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: asus,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Art-themed Project",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "It is an art-themed website that introduces various forms of art, enhanced with GSAP animations to create a more interactive experience.",
     tags: [
       {
-        name: "nextjs",
+        name: "GSAP",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Vanilla JS",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: art,
     source_code_link: "https://github.com/",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const awards = [
+  {
+    name: "Cathay Hackathon Final Round",
+    description:
+      "It is an innovative app targeted at juniors, developed for the Cathay Pacific team during the Cathay Hackathon 2022",
+    tags: [
+      {
+        name: "Swift UI",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Figma",
+        color: "green-text-gradient",
+      },
+    ],
+    image: cathayJunior,
+    source_code_link:
+      "https://www.figma.com/file/zKq9DG4cDUwFvgRwWsZaEO/UI.UX?type=design&node-id=0%3A1&mode=design&t=QnXTMjgqRoeUvWiR-1",
+  },
+  {
+    name: "AR Inspector",
+    description:
+      "It is an augmented reality mobile app project that contributed to our team winning the bronze award at The 3rd Greater Bay Area 5G Application and Innovation Challenge (Student Group).",
+    tags: [
+      {
+        name: "Swift",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "AR Kit",
+        color: "green-text-gradient",
+      },
+      {
+        name: "3D Modeling",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: arInspector,
+    source_code_link: "https://github.com/",
+  },
+];
+
+const designProjects = [
+  {
+    name: "Wearther",
+    description:
+      "It is a responsive website created for the app, aiming to assist users in choosing suitable attire each day by utilizing recorded weather data to avoid wearing unsuitable clothing for the current conditions.",
+    tags: [
+      {
+        name: "Figma",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: pokemon,
+    source_code_link:
+      "https://www.figma.com/file/zKq9DG4cDUwFvgRwWsZaEO/UI.UX?type=design&node-id=0%3A1&mode=design&t=QnXTMjgqRoeUvWiR-1",
+  },
+  {
+    name: "ASUS Website",
+    description:
+      "It is a website themed around ASUS, designed to showcase its products with a variety of interactive elements to enhance the appeal of the products.",
+    tags: [
+      {
+        name: "Django",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Vanilla JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: asus,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Art-themed Project",
+    description:
+      "It is an art-themed website that introduces various forms of art, enhanced with GSAP animations to create a more interactive experience.",
+    tags: [
+      {
+        name: "GSAP",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Vanilla JS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: art,
+    source_code_link: "https://github.com/",
+  },
+];
+
+const appProjects = [
+  {
+    name: "Pokemon Website",
+    description:
+      "A Pokémon-themed website centered around Gengar, designed to engage users through interactive elements such as parallax design and other engaging features.",
+    tags: [
+      {
+        name: "Vanilla JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Parallax Design",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pokemon,
+    source_code_link:
+      "https://www.figma.com/file/zKq9DG4cDUwFvgRwWsZaEO/UI.UX?type=design&node-id=0%3A1&mode=design&t=QnXTMjgqRoeUvWiR-1",
+  },
+  {
+    name: "ASUS Website",
+    description:
+      "It is a website themed around ASUS, designed to showcase its products with a variety of interactive elements to enhance the appeal of the products.",
+    tags: [
+      {
+        name: "Django",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Vanilla JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: asus,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Art-themed Project",
+    description:
+      "It is an art-themed website that introduces various forms of art, enhanced with GSAP animations to create a more interactive experience.",
+    tags: [
+      {
+        name: "GSAP",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Vanilla JS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: art,
+    source_code_link: "https://github.com/",
+  },
+];
+
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  awards,
+  appProjects,
+  designProjects,
+};

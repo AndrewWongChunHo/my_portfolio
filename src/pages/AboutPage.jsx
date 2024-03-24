@@ -10,6 +10,8 @@ import {
   Tech,
   Works,
   StarsCanvas,
+  Awards,
+  DesignProject,
 } from "../components";
 
 const AboutPage = () => {
@@ -26,10 +28,8 @@ const AboutPage = () => {
       <Experience />
       <Tech />
       <Works />
-      <div className="relative z-0">
-        <Contact />
-        <StarsCanvas />
-      </div>
+      <Awards />
+      <DesignProject />
     </div>
   );
 };

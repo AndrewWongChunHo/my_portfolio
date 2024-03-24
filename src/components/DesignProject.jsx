@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { arrow2 } from "../assets/icons";
 import { SectionWrapper } from "../hoc";
-import { awards } from "../constants";
+import { designProjects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({
@@ -67,12 +67,12 @@ const ProjectCard = ({
   );
 };
 
-const Awards = () => {
+const DesignProject = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My awards</p>
-        <h2 className={`${styles.sectionHeadText}`}>Awarded Projects.</h2>
+        <p className={`${styles.sectionSubText} `}>My design</p>
+        <h2 className={`${styles.sectionHeadText}`}>Design Projects.</h2>
       </motion.div>
 
       <div className="w-full flex">
@@ -80,12 +80,14 @@ const Awards = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          The projects listed below are my past award-winning projects.
+          The projects listed below are primarily assignments from my school
+          days, focused on interactive design concepts that aim to engage the
+          audience.
         </motion.p>
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
-        {awards.map((project, index) => (
+        {designProjects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
@@ -93,4 +95,4 @@ const Awards = () => {
   );
 };
 
-export default SectionWrapper(Awards, "");
+export default SectionWrapper(DesignProject, "");
