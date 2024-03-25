@@ -66,8 +66,18 @@ import asus from "./asus.png";
 import art from "./art.png";
 import cathayJunior from "./cathayJunior.png";
 import arInspector from "./arInspector.png";
+import wearther from "./wearther.png";
+import dashboard from "./dashboard.png";
+import hungFookTong from "./hungFookTong.png";
+import planEasy from "./planEasy.png";
+import game from "./game.png";
 
 export {
+  planEasy,
+  game,
+  hungFookTong,
+  dashboard,
+  wearther,
   arInspector,
   cathayJunior,
   art,

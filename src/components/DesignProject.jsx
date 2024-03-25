@@ -81,8 +81,7 @@ const DesignProject = () => {
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           The projects listed below are primarily assignments from my school
-          days, focused on interactive design concepts that aim to engage the
-          audience.
+          days.
         </motion.p>
       </div>
 

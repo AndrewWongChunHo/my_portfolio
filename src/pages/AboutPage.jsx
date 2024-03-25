@@ -12,6 +12,7 @@ import {
   StarsCanvas,
   Awards,
   DesignProject,
+  AppProject,
 } from "../components";
 
 const AboutPage = () => {
@@ -28,8 +29,9 @@ const AboutPage = () => {
       <Experience />
       <Tech />
       <Works />
-      <Awards />
       <DesignProject />
+      <AppProject />
+      <Awards />
     </div>
   );
 };

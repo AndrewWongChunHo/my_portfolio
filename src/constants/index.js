@@ -44,6 +44,11 @@ import {
   art,
   cathayJunior,
   arInspector,
+  wearther,
+  dashboard,
+  hungFookTong,
+  game,
+  planEasy,
 } from "../assets/icons";
 
 export const navLinks = [
@@ -194,8 +199,7 @@ const projects = [
       },
     ],
     image: pokemon,
-    source_code_link:
-      "https://www.figma.com/file/zKq9DG4cDUwFvgRwWsZaEO/UI.UX?type=design&node-id=0%3A1&mode=design&t=QnXTMjgqRoeUvWiR-1",
+    source_code_link: "https://github.com/AndrewWongChunHo/Pokemon",
   },
   {
     name: "ASUS Website",
@@ -216,7 +220,7 @@ const projects = [
       },
     ],
     image: asus,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/AndrewWongChunHo/ASUS-Website",
   },
   {
     name: "Art-themed Project",
@@ -294,117 +298,80 @@ const designProjects = [
         color: "blue-text-gradient",
       },
     ],
-    image: pokemon,
+    image: wearther,
     source_code_link:
       "https://www.figma.com/file/zKq9DG4cDUwFvgRwWsZaEO/UI.UX?type=design&node-id=0%3A1&mode=design&t=QnXTMjgqRoeUvWiR-1",
   },
   {
-    name: "ASUS Website",
+    name: "Hung Fook Tong Redesign",
     description:
-      "It is a website themed around ASUS, designed to showcase its products with a variety of interactive elements to enhance the appeal of the products.",
+      "This project involves revamping the Hung Fook Tong app to improve user experience, streamline user flow, and suggest additional features for future enhancement, including an online doctor consultation function",
     tags: [
       {
-        name: "Django",
+        name: "Figma",
         color: "blue-text-gradient",
       },
-      {
-        name: "Vanilla JS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "pink-text-gradient",
-      },
     ],
-    image: asus,
+    image: hungFookTong,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Art-themed Project",
+    name: "Dashboard Design",
     description:
-      "It is an art-themed website that introduces various forms of art, enhanced with GSAP animations to create a more interactive experience.",
+      "Diverse dashboard designs that visualize data, such as a 3D toilet for monitoring air quality and occupancy, as well as green-themed dashboards for sustainability purposes.",
     tags: [
       {
-        name: "GSAP",
+        name: "Figma",
         color: "blue-text-gradient",
       },
-      {
-        name: "CSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Vanilla JS",
-        color: "pink-text-gradient",
-      },
     ],
-    image: art,
+    image: dashboard,
     source_code_link: "https://github.com/",
   },
 ];
 
 const appProjects = [
   {
-    name: "Pokemon Website",
+    name: "Shopping App",
     description:
-      "A Pokémon-themed website centered around Gengar, designed to engage users through interactive elements such as parallax design and other engaging features.",
+      "It is a shopping app that specializes in gaming products. The app utilizes Firebase for data storage and features functionalities such as list view, adding items to the shopping cart, as well as a backend website for product uploads.",
     tags: [
       {
-        name: "Vanilla JS",
+        name: "Java",
         color: "blue-text-gradient",
       },
       {
-        name: "Parallax Design",
+        name: "Firebase",
         color: "green-text-gradient",
       },
       {
-        name: "CSS",
+        name: "Android Studio",
         color: "pink-text-gradient",
       },
     ],
-    image: pokemon,
+    image: game,
     source_code_link:
       "https://www.figma.com/file/zKq9DG4cDUwFvgRwWsZaEO/UI.UX?type=design&node-id=0%3A1&mode=design&t=QnXTMjgqRoeUvWiR-1",
   },
   {
-    name: "ASUS Website",
+    name: "Plan Easy",
     description:
-      "It is a website themed around ASUS, designed to showcase its products with a variety of interactive elements to enhance the appeal of the products.",
+      "It is an AR shopping app that allows users to virtually try on clothes online, providing an engaging shopping experience while staying at the forefront of the emerging AR trend. A Chat GPT fashion assistant is also integrated to assist users with fashion choices",
     tags: [
       {
-        name: "Django",
+        name: "Swift",
         color: "blue-text-gradient",
       },
       {
-        name: "Vanilla JS",
+        name: "Swift UI",
         color: "green-text-gradient",
       },
       {
-        name: "CSS",
+        name: "AR Kit",
         color: "pink-text-gradient",
       },
     ],
-    image: asus,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Art-themed Project",
-    description:
-      "It is an art-themed website that introduces various forms of art, enhanced with GSAP animations to create a more interactive experience.",
-    tags: [
-      {
-        name: "GSAP",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Vanilla JS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: art,
+    image: planEasy,
     source_code_link: "https://github.com/",
   },
 ];
