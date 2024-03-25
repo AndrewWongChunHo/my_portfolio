@@ -220,7 +220,7 @@ const projects = [
       },
     ],
     image: asus,
-    source_code_link: "https://github.com/AndrewWongChunHo/ASUS-Website",
+    source_code_link: "https://github.com/AndrewWongChunHo/ASUS_Project",
   },
   {
     name: "Art-themed Project",
@@ -241,7 +241,8 @@ const projects = [
       },
     ],
     image: art,
-    source_code_link: "https://github.com/",
+    source_code_link:
+      "https://github.com/AndrewWongChunHo/Art-Themed-GSAP-Website",
   },
 ];
 
@@ -300,7 +301,7 @@ const designProjects = [
     ],
     image: wearther,
     source_code_link:
-      "https://www.figma.com/file/zKq9DG4cDUwFvgRwWsZaEO/UI.UX?type=design&node-id=0%3A1&mode=design&t=QnXTMjgqRoeUvWiR-1",
+      "https://www.figma.com/file/IPS0UtuPL0ojYYuPuCqTB2/Wearther?type=design&node-id=0%3A1&mode=design&t=Wod1Gxej2JPJbPQG-1",
   },
   {
     name: "Hung Fook Tong Redesign",
@@ -313,7 +314,8 @@ const designProjects = [
       },
     ],
     image: hungFookTong,
-    source_code_link: "https://github.com/",
+    source_code_link:
+      "https://www.figma.com/file/1FoBFWKwe0WOUB7IgJZna2/Hung-Fook-Tong-Redesign?type=design&node-id=0%3A1&mode=design&t=w2CezxvyooP1lNYq-1",
   },
   {
     name: "Dashboard Design",
@@ -326,7 +328,8 @@ const designProjects = [
       },
     ],
     image: dashboard,
-    source_code_link: "https://github.com/",
+    source_code_link:
+      "https://www.figma.com/file/KSizobbCcRFHb08r07Avt0/Dashboard-Design?type=design&node-id=0%3A1&mode=design&t=qK6ZaDjobOgtT8zp-1",
   },
 ];
 
@@ -351,7 +354,7 @@ const appProjects = [
     ],
     image: game,
     source_code_link:
-      "https://www.figma.com/file/zKq9DG4cDUwFvgRwWsZaEO/UI.UX?type=design&node-id=0%3A1&mode=design&t=QnXTMjgqRoeUvWiR-1",
+      "https://github.com/AndrewWongChunHo/ShoppingApp-Android-",
   },
   {
     name: "Plan Easy",
@@ -372,7 +375,7 @@ const appProjects = [
       },
     ],
     image: planEasy,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/AndrewWongChunHo/PlanEasy",
   },
 ];
 

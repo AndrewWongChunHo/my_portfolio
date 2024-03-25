@@ -16,7 +16,7 @@ export default {
         },
         primary: "#050816",
         secondary: "#C5D3F3",
-        tertiary: "#151030",
+        tertiary: "#0E1133",
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3",
